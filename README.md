@@ -33,6 +33,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 Rectangle:
+```
 Rectangle.component.html:
 <style>
     h2{
@@ -52,7 +53,7 @@ color: rgb(232, 69, 250);
 
 </style>
 
-<div class="container">
+    <div class="container">
     <div class="al">
     <h2>AREA OF RECTANGLE</h2>
     Length=<input type="text"[(ngModel)]='length'>Meters<br/>
@@ -60,7 +61,7 @@ color: rgb(232, 69, 250);
     <input type="button" (click)="onCalculate()" value="CalculateArea"><br/>
     Area=<input type="text" [value]="area"> Meters<sup>2</sup><br/>
 
-</div>
+    </div>
 
 Rectangle.component.ts:
 import { Component } from "@angular/core";
@@ -204,6 +205,7 @@ import { RectangleComponent } from './rectangle/rectangle.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+```
 ## OUTPUT:
 ![output](https://github.com/Gayathriraj18/AngularCalculation/blob/main/img.png)
 
