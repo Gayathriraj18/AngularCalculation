@@ -178,7 +178,7 @@ App.component.html:
   
 </Cylinder-Vol>
 
-<div class="footer">DEVELOPED BY: kiran.S</div>
+<div class="footer">DEVELOPED BY: Gayathri.A</div>
 
     </div>
 
@@ -206,7 +206,7 @@ import { RectangleComponent } from './rectangle/rectangle.component';
 export class AppModule { }
 ## OUTPUT:
 
-### Home Page:
 
 
 ## Result:
+The webpage for mathematical calculation is successfully created.
